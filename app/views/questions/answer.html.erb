@@ -1,0 +1,11 @@
+<h1 class="my-5">Answer Page</h1>
+
+<div class="conversation">
+  <div class="border-left"><p><%= params["word"] %></p>
+  <em>–You</em></div>
+
+  <div class="border-left background-yellow"><p><strong><%= @answer %></strong></p>
+  <em>–Your coach</em></div>
+
+  <p><%= link_to "Ask a new question", ask_path, class:"btn btn-primary"%></p>
+</div>
